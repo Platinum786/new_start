@@ -1,0 +1,16 @@
+{
+  "scenario_id": "rear_end_001",
+  "map": "Town03",
+  "carla_server_version": "0.9.15",
+  "duration_simulated_s": 3.4,
+  "collision": true,
+  "collision_events": [
+    {
+      "frame": 99924435,
+      "other_actor_id": 1644
+    }
+  ],
+  "minimum_center_distance_m": 4.535,
+  "minimum_approx_ttc_s": 0.421,
+  "csv_file": "results/rear_end_001.csv"
+}
