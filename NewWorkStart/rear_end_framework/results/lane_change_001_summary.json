@@ -1,0 +1,26 @@
+{
+  "scenario_id": "lane_change_001",
+  "scenario_type": "lane_change_cut_in",
+  "map": "Town03",
+  "carla_server_version": "0.9.15",
+  "duration_simulated_s": 4.15,
+  "cut_in_side": "left",
+  "collision": true,
+  "collision_with_cut_in_vehicle": true,
+  "collision_events": [
+    {
+      "frame": 6740638,
+      "other_actor_id": 1370,
+      "other_actor_type": "vehicle.audi.tt",
+      "with_cut_in_vehicle": true
+    }
+  ],
+  "cut_in_time_s": 4.0,
+  "longitudinal_gap_at_cut_in_m": -2.117,
+  "lane_change_completed": false,
+  "lane_change_completion_time_s": null,
+  "minimum_center_distance_m": 2.706,
+  "minimum_in_path_gap_m": -2.542,
+  "minimum_approx_ttc_s": null,
+  "csv_file": "results/lane_change_001.csv"
+}

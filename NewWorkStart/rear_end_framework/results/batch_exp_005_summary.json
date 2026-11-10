@@ -1,0 +1,17 @@
+{
+  "scenario_id": "batch_exp_005",
+  "map": "Town03",
+  "carla_server_version": "0.9.15",
+  "duration_simulated_s": 3.4,
+  "collision": true,
+  "collision_events": [
+    {
+      "frame": 53558610,
+      "other_actor_id": 2910
+    }
+  ],
+  "minimum_center_distance_m": 4.82,
+  "minimum_bumper_gap_m": -0.195,
+  "minimum_approx_ttc_s": 0.0,
+  "csv_file": "results/batch_exp_005.csv"
+}

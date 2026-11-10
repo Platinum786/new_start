@@ -40,3 +40,27 @@ def calculate_ttc(distance_m, closing_speed_mps):
         return None
 
     return distance_m / closing_speed_mps
+
+
+def calculate_bumper_gap(ego, lead):
+    """
+    Estimate the bumper-to-bumper gap for vehicles
+    aligned in the same direction and lane.
+
+    Returns the gap in meters.
+    """
+    ego_location = ego.get_location()
+    lead_location = lead.get_location()
+
+    center_distance = ego_location.distance(lead_location)
+
+    ego_half_length = ego.bounding_box.extent.x
+    lead_half_length = lead.bounding_box.extent.x
+
+    bumper_gap = (
+        center_distance
+        - ego_half_length
+        - lead_half_length
+    )
+
+    return bumper_gap

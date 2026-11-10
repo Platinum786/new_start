@@ -1,0 +1,25 @@
+{
+  "scenario_id": "batch_exp_001",
+  "scenario_type": "rear_end_collision",
+  "map": "Town03",
+  "ego": {
+    "speed_kmh": 60.0
+  },
+  "lead_vehicle": {
+    "speed_kmh": 50.0,
+    "initial_gap_m": 10.0,
+    "brake_time_s": 3.0,
+    "target_deceleration_mps2": 6.0
+  },
+  "environment": {
+    "weather": "clear"
+  },
+  "evaluation": {
+    "collision_detection": true,
+    "record_minimum_distance": true,
+    "record_ttc": true
+  },
+  "termination": {
+    "max_duration_s": 15
+  }
+}

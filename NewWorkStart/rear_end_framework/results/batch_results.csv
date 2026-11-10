@@ -1,0 +1,6 @@
+experiment_id,scenario_id,initial_gap_m,ego_speed_kmh,lead_speed_kmh,brake_time_s,collision,minimum_center_distance_m,minimum_bumper_gap_m,minimum_approx_ttc_s,duration_simulated_s,status
+exp_001,batch_exp_001,10,60,50,3.0,True,4.264,0.016,0.029,2.3,completed
+exp_002,batch_exp_002,20,60,50,3.0,True,7.878,0.346,0.061,2.65,completed
+exp_003,batch_exp_003,30,60,50,3.0,True,5.012,-0.063,0.023,4.15,completed
+exp_004,batch_exp_004,20,70,50,3.0,True,4.43,-0.056,0.0,4.05,completed
+exp_005,batch_exp_005,20,60,50,2.0,True,4.82,-0.195,0.0,3.4,completed
