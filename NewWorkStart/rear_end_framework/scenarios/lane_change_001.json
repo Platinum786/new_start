@@ -1,0 +1,36 @@
+{
+  "scenario_id": "lane_change_001",
+  "scenario_type": "lane_change_cut_in",
+  "map": "Town03",
+
+  "ego": {
+    "speed_kmh": 60,
+    "blueprint": "vehicle.tesla.model3"
+  },
+
+  "cut_in_vehicle": {
+    "blueprint": "vehicle.audi.tt",
+    "speed_kmh": 50,
+    "initial_gap_m": 15.0,
+    "initial_lane": "adjacent_lane",
+    "target_lane": "ego_lane",
+    "lane_change_start_time_s": 2.0,
+    "lane_change_duration_s": 5.0
+  },
+
+  "environment": {
+    "weather": "clear"
+  },
+
+  "evaluation": {
+    "collision_detection": true,
+    "record_minimum_distance": true,
+    "record_ttc": true,
+    "record_lane_change_completion": true
+  },
+
+  "termination": {
+    "max_duration_s": 15,
+    "stop_on_collision": true
+  }
+}

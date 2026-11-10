@@ -1,0 +1,41 @@
+
+{
+  "experiments": [
+    {
+      "experiment_id": "exp_001",
+      "initial_gap_m": 10,
+      "ego_speed_kmh": 60,
+      "lead_speed_kmh": 50,
+      "brake_time_s": 3.0
+    },
+    {
+      "experiment_id": "exp_002",
+      "initial_gap_m": 20,
+      "ego_speed_kmh": 60,
+      "lead_speed_kmh": 50,
+      "brake_time_s": 3.0
+    },
+    {
+      "experiment_id": "exp_003",
+      "initial_gap_m": 30,
+      "ego_speed_kmh": 60,
+      "lead_speed_kmh": 50,
+      "brake_time_s": 3.0
+    },
+    {
+      "experiment_id": "exp_004",
+      "initial_gap_m": 20,
+      "ego_speed_kmh": 70,
+      "lead_speed_kmh": 50,
+      "brake_time_s": 3.0
+    },
+    {
+      "experiment_id": "exp_005",
+      "initial_gap_m": 20,
+      "ego_speed_kmh": 60,
+      "lead_speed_kmh": 50,
+      "brake_time_s": 2.0
+    }
+  ]
+}
+

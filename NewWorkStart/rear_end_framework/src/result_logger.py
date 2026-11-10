@@ -9,6 +9,7 @@ CSV_FIELDS = [
     "ego_speed_kmh",
     "lead_speed_kmh",
     "center_distance_m",
+    "bumper_gap_m",
     "approx_ttc_s",
     "collision",
 ]
@@ -21,11 +22,11 @@ def create_results_directory(directory="results"):
     return results_dir
 
 
-def create_csv_writer(file_handle):
-    """Create a CSV writer with the standard scenario columns."""
+def create_csv_writer(file_handle, fieldnames=None):
+    """Create a CSV writer (standard columns unless `fieldnames` given)."""
     writer = csv.DictWriter(
         file_handle,
-        fieldnames=CSV_FIELDS
+        fieldnames=fieldnames or CSV_FIELDS
     )
     writer.writeheader()
     return writer
